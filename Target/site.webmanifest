@@ -1,0 +1,10 @@
+{
+	"background_color": "#0A4296",
+	"categories": [],
+	"display": "minimal-ui",
+	"name": "IntakeNomNom",
+	"orientation": "landscape",
+	"short_name": "intakenomnom",
+	"start_url": "/",
+	"theme_color": "#0A4296"
+}
