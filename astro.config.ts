@@ -6,7 +6,10 @@ export default (await import("astro/config")).defineConfig({
 	outDir: "./Target",
 	site: "HTTPS://IntakeNomNom.Com",
 	compressHTML: true,
-	prefetch: true,
+	prefetch: {
+		defaultStrategy: "hover",
+		prefetchAll: true,
+	},
 	server: {
 		port: 9999,
 	},
